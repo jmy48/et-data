@@ -58,9 +58,9 @@ var LineChart = function( options ) {
     context.clearRect( 0, 0, width, height );
 
     context.fillStyle = '#000000';
-    context.fillRect( paddingX, y1, width - ( paddingX * 2 ), 1 );
-    context.fillRect( paddingX, y2, width - ( paddingX * 2 ), 1 );
-    context.fillRect( paddingX, y3, width - ( paddingX * 2 ), 1 );
+    // context.fillRect( paddingX, y1, width - ( paddingX * 2 ), 1 );
+    // context.fillRect( paddingX, y2, width - ( paddingX * 2 ), 1 );
+    // context.fillRect( paddingX, y3, width - ( paddingX * 2 ), 1 );
     
     if( options.yAxisLabel ) {
       context.save();
