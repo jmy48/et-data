@@ -1,7 +1,8 @@
 var LineChart = function( options ) {
 
   var data = options.data;
-  var canvas = document.body.appendChild( document.createElement( 'canvas' ) );
+  console.log(document.getElementsByClassName('html-embed'));
+  var canvas = document.getElementsByClassName("html-embed")[0].appendChild( document.createElement( 'canvas' ) );
   var context = canvas.getContext( '2d' );
 
   var rendering = false,
